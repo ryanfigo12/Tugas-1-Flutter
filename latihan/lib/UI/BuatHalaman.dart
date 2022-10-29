@@ -10,9 +10,8 @@ class BuatHalaman extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       //appbar
-      
-      
-      appBar: AppBar(title: const Text("Produck Listing")),
+
+      appBar: AppBar(title: const Text("PRODUK VGA CARD")),
       // body untuk content
       // menampilkan list
       body: ListView(
@@ -29,46 +28,51 @@ class BuatHalaman extends StatelessWidget {
               Navigator.of(context).push(MaterialPageRoute(
                 // pemanggilan class detailproduk beserta pengiriman detail produk
                 builder: (BuildContext context) => const Detailproduk(
-                  name: "Erigo T-Shirt Project Summer Black",
-                 description: "T-Shirt Erigo saat ini merupakan salah satu lini pakaian terbaik dan berkualitas tinggi di antara Local Brand Indonesia. Dibuat dengan bahan cotton yang nyaman untuk menemani harimu dan memiliki print desain yang unik. Dapatkan long lasting tee dengan warna cantik ini untuk merasa muda selamanya",
-                  price: 1000,
-                  image: "erigo.jpg",
+                  name:
+                      "Gigabyte Nvidia GeForce RTX 3070 GAMING OC 8GB - DDR6 - VGA Card",
+                  description:
+                      "NVIDIA Ampere Streaming Multiprocessors 2nd Generation RT Cores 3rd Generation Tensor Cores Powered by GeForce RTX™ 3070 Integrated with 8GB GDDR6 256-bit memory interface WINDFORCE 3X Cooling System with alternate spinning fans RGB Fusion 2.0 Protection metal back plate",
+                  price: 11000000,
+                  image: "rtx1.png",
                   star: 1,
                 ),
               ));
             },
 
-            
             // memanggil class ProdukBox
             child: ProductBox(
               // berisi parameter yang diperlukan di class ProdukBox
-              name: "Erigo T-Shirt Project Summer Black",
-              description: "T-Shirt Erigo saat ini merupakan salah satu lini pakaian terbaik dan berkualitas tinggi di antara Local Brand Indonesia. Dibuat dengan bahan cotton yang nyaman untuk menemani harimu dan memiliki print desain yang unik. Dapatkan long lasting tee dengan warna cantik ini untuk merasa muda selamanya!",
-              price: 1000,
-              image: "erigo.jpg",
+              name:
+                  "Gigabyte Nvidia GeForce RTX 3070 GAMING OC 8GB - DDR6 - VGA Card",
+              description:
+                  "NVIDIA Ampere Streaming Multiprocessors 2nd Generation RT Cores 3rd Generation Tensor Cores Powered by GeForce RTX™ 3070 Integrated with 8GB GDDR6 256-bit memory interface WINDFORCE 3X Cooling System with alternate spinning fans RGB Fusion 2.0 Protection metal back plate",
+              price: 11000000,
+              image: "rtx1.png",
               star: 1,
             ),
-            
           ),
-          
+
           GestureDetector(
             onTap: () {
               Navigator.of(context).push(
                 MaterialPageRoute(
                   builder: (BuildContext context) => const Detailproduk(
-                      name: "Erigo T-Shirt Vintage Gang Black",
-                      description: " T-Shirt Erigo saat ini merupakan salah satu lini pakaian terbaik dan berkualitas tinggi di antara Local Brand Indonesia. Dibuat dengan bahan cotton yang nyaman untuk menemani harimu dan memiliki print desain yang unik. Dapatkan long lasting tee dengan warna cantik ini untuk merasa muda selamanya!",
-                      price: 800,
-                      image: "erigo1.jpg",
+                      name:
+                          "MSI GeForce RTX 3050 GAMING X 8GB GDDR6 - VGA Card",
+                      description:
+                          "Graphics Processing Unit NVIDIA® GeForce RTX™ 3050 Interface PCI Express® Gen 4.0 x8 Cores 2560 Units Core Clocks TBD Memory Speed 14 Gbps Memory 8GB GDDR6 Memory Bus 128-bit",
+                      price: 5309000,
+                      image: "rtx2.png",
                       star: 4),
                 ),
               );
             },
             child: ProductBox(
-                name: "Erigo T-Shirt Vintage Gang Black",
-                description: " T-Shirt Erigo saat ini merupakan salah satu lini pakaian terbaik dan berkualitas tinggi di antara Local Brand Indonesia. Dibuat dengan bahan cotton yang nyaman untuk menemani harimu dan memiliki print desain yang unik. Dapatkan long lasting tee dengan warna cantik ini untuk merasa muda selamanya!",
-                price: 800,
-                image: "erigo1.jpg",
+                name: "MSI GeForce RTX 3050 GAMING X 8GB GDDR6 - VGA Card",
+                description:
+                    "Graphics Processing Unit NVIDIA® GeForce RTX™ 3050 Interface PCI Express® Gen 4.0 x8 Cores 2560 Units Core Clocks TBD Memory Speed 14 Gbps Memory 8GB GDDR6 Memory Bus 128-bit",
+                price: 5309000,
+                image: "rtx2.png",
                 star: 4),
           ),
           GestureDetector(
@@ -76,41 +80,23 @@ class BuatHalaman extends StatelessWidget {
               Navigator.of(context).push(
                 MaterialPageRoute(
                   builder: (BuildContext context) => const Detailproduk(
-                      name: "Erigo T-Shirt Okkami Black",
-                      description: "T-Shirt Erigo saat ini merupakan salah satu lini pakaian terbaik dan berkualitas tinggi di antara Local Brand Indonesia. Dibuat dengan bahan cotton yang nyaman untuk menemani harimu dan memiliki print desain yang unik. Dapatkan long lasting tee dengan warna cantik ini untuk merasa muda selamanya!",
-                      price: 2000,
-                      image: "erigo2.jpg",
-                      star: 3),
-                ),
-              );
-            },
-            child: ProductBox(
-                name: "Erigo T-Shirt Okkami Black",
-                description: "T-Shirt Erigo saat ini merupakan salah satu lini pakaian terbaik dan berkualitas tinggi di antara Local Brand Indonesia. Dibuat dengan bahan cotton yang nyaman untuk menemani harimu dan memiliki print desain yang unik. Dapatkan long lasting tee dengan warna cantik ini untuk merasa muda selamanya!",
-                price: 2000,
-                image: "erigo2.jpg",
-                star: 3),
-          ),
-          GestureDetector(
-            onTap: () {
-              Navigator.of(context).push(
-                MaterialPageRoute(
-                  builder: (BuildContext context) => const Detailproduk(
-                      name: "Erigo T-Shirt Ramen Street Black",
+                      name:
+                          "ASUS TUF RTX 3070 OC 8GB DDR6 256BIT GAMING NVIDIA VGA CARD",
                       description:
-                          "T-Shirt Erigo saat ini merupakan salah satu lini pakaian terbaik dan berkualitas tinggi di antara Local Brand Indonesia. Dibuat dengan bahan cotton yang nyaman untuk menemani harimu dan memiliki print desain yang unik. Dapatkan long lasting tee dengan warna cantik ini untuk merasa muda selamanya!",
-                      price: 1500,
-                      image: "erigo3.jpg",
+                          "NVIDIA Ampere Streaming Multiprocessors: The building blocks for the world’s fastest, most efficient GPU, the all-new Ampere SM brings 2X the FP32 throughput and improved power efficiency.",
+                      price: 10000000,
+                      image: "rtx3.png",
                       star: 3),
                 ),
               );
             },
             child: ProductBox(
-                name: "Erigo T-Shirt Ramen Street Black",
+                name:
+                    "ASUS TUF RTX 3070 OC 8GB DDR6 256BIT GAMING NVIDIA VGA CARD",
                 description:
-                    "T-Shirt Erigo saat ini merupakan salah satu lini pakaian terbaik dan berkualitas tinggi di antara Local Brand Indonesia. Dibuat dengan bahan cotton yang nyaman untuk menemani harimu dan memiliki print desain yang unik. Dapatkan long lasting tee dengan warna cantik ini untuk merasa muda selamanya!",
-                price: 1500,
-                image: "erigo3.jpg",
+                    "NVIDIA Ampere Streaming Multiprocessors: The building blocks for the world’s fastest, most efficient GPU, the all-new Ampere SM brings 2X the FP32 throughput and improved power efficiency.",
+                price: 10000000,
+                image: "rtx3.png",
                 star: 3),
           ),
           GestureDetector(
@@ -118,19 +104,46 @@ class BuatHalaman extends StatelessWidget {
               Navigator.of(context).push(
                 MaterialPageRoute(
                   builder: (BuildContext context) => const Detailproduk(
-                      name: "Erigo T-Shirt Always Dark Grey",
-                      description: "T-Shirt Erigo saat ini merupakan salah satu lini pakaian terbaik dan berkualitas tinggi di antara Local Brand Indonesia. Dibuat dengan bahan cotton yang nyaman untuk menemani harimu dan memiliki print desain yang unik. Dapatkan long lasting tee dengan warna cantik ini untuk merasa muda selamanya!",
-                      price: 100,
-                      image: "erigo4.jpg",
+                      name:
+                          "ASUS KO GeForce RTX 3060 OC 12GB GDDR6 KO-RTX3060-O12G-V2-GAMING VGA Card",
+                      description:
+                          "2GB GDDR6 192-bit Boost Clock (MHz): 1882 (OC Mode), 1852 (Game Mode) / Memory Speed: 15 Gbps 2 x HDMI, 3 x DisplayPort PCI Express 4.0 x16 Dual Fan Backplate ASUS Aura Sync",
+                      price: 10000000,
+                      image: "rtx4.jpg",
+                      star: 3),
+                ),
+              );
+            },
+            child: ProductBox(
+                name:
+                    "ASUS KO GeForce RTX 3060 OC 12GB GDDR6 KO-RTX3060-O12G-V2-GAMING VGA Card",
+                description:
+                    "2GB GDDR6 192-bit Boost Clock (MHz): 1882 (OC Mode), 1852 (Game Mode) / Memory Speed: 15 Gbps 2 x HDMI, 3 x DisplayPort PCI Express 4.0 x16 Dual Fan Backplate ASUS Aura Sync",
+                price: 10000000,
+                image: "rtx4.jpg",
+                star: 3),
+          ),
+          GestureDetector(
+            onTap: () {
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (BuildContext context) => const Detailproduk(
+                      name:
+                          "VGA ZOTAC GAMING GEFORCE RTX 2080 SUPER AMP 8GB DDR6",
+                      description:
+                          "GPU GeForce RTX 2080 SUPER CUDA cores 3072 Video Memory 8GB GDDR6 Memory Bus 256-bit Engine Clock Boost 1845 MHz Memory Clock 15.5 Gbps PCI Express 3.0",
+                      price: 14000000,
+                      image: "rtx5.jpg",
                       star: 5),
                 ),
               );
             },
             child: ProductBox(
-                name: "Erigo T-Shirt Always Dark Grey",
-                description: "T-Shirt Erigo saat ini merupakan salah satu lini pakaian terbaik dan berkualitas tinggi di antara Local Brand Indonesia. Dibuat dengan bahan cotton yang nyaman untuk menemani harimu dan memiliki print desain yang unik. Dapatkan long lasting tee dengan warna cantik ini untuk merasa muda selamanya!",
-                price: 100,
-                image: "erigo4.jpg",
+                name: "VGA ZOTAC GAMING GEFORCE RTX 2080 SUPER AMP 8GB DDR6",
+                description:
+                    "GPU GeForce RTX 2080 SUPER CUDA cores 3072 Video Memory 8GB GDDR6 Memory Bus 256-bit Engine Clock Boost 1845 MHz Memory Clock 15.5 Gbps PCI Express 3.0",
+                price: 14000000,
+                image: "rtx5.jpg",
                 star: 5),
           ),
         ],
@@ -138,7 +151,6 @@ class BuatHalaman extends StatelessWidget {
     );
   }
 }
-
 
 // menggunkan stateleswidget
 class ProductBox extends StatelessWidget {

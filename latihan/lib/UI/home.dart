@@ -59,26 +59,26 @@ class _HomeState extends State<Home> {
       // widget drawer
 
       drawer: (
-        // widget drawer
-       Drawer(
+          // widget drawer
+          Drawer(
         child: ListView(
           children: <Widget>[
             // Drawwer Header diisi dengan informasi akun
             UserAccountsDrawerHeader(
-              accountName: const Text('Komang Triana Putra'),
-              accountEmail: const Text("triana.putra@undiksha.ac.id"),
+              accountName: const Text('I Putu Ryan Figo Ananta Mulia'),
+              accountEmail: const Text("ryanfigo13@gmail.com"),
               currentAccountPicture: GestureDetector(
                 onTap: () {},
                 child: const CircleAvatar(
                   // mengambil gamabar dari internet menggunakan NetworkImage
                   backgroundImage: NetworkImage(
-                      'https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Elon_Musk_Royal_Society_%28crop2%29.jpg/1200px-Elon_Musk_Royal_Society_%28crop2%29.jpg'),
+                      'https://static.vecteezy.com/system/resources/previews/003/672/329/original/cute-dino-hugging-a-love-heart-vector.jpg'),
                 ),
               ),
               // memberikan background pada Drawer Header
               decoration: const BoxDecoration(
                 image: DecorationImage(
-                    image: AssetImage("assets/appimages/bbb.jpg"),
+                    image: AssetImage("assets/appimages/tiang.jpg"),
                     fit: BoxFit.cover),
               ),
             ),
@@ -105,8 +105,7 @@ class _HomeState extends State<Home> {
         ),
         // seluruh body dibungkus column
 // tidak terdapat perubahan pada body pada body home.dart tugas ardi sebelumnya
-      )
-      ),
+      )),
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
@@ -136,7 +135,7 @@ class _HomeState extends State<Home> {
       ),
       body: ListView(
         children: <Widget>[
-          Image.asset("assets/appimages/beratan.jpg"),
+          Image.asset("assets/appimages/rtx.jpg"),
 // setiap bagian body di pisahkan oleh container
           Container(
             color: Color.fromARGB(255, 101, 141, 206),
@@ -149,7 +148,7 @@ class _HomeState extends State<Home> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: const [
                       Text(
-                        'Danau Buyan',
+                        'VGA CARD',
                         style: TextStyle(
                             fontWeight: FontWeight.bold, fontSize: 20),
                       ),
@@ -166,7 +165,7 @@ class _HomeState extends State<Home> {
                   Icons.star,
                   color: Colors.red[500],
                 ),
-                Text('14')
+                Text('7')
               ],
             ),
           ),
